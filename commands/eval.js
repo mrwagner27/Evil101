@@ -7,7 +7,7 @@ function clean(text) {
 }
 
 let rejectionembed = new Discord.RichEmbed()
-    .setColor("RED")
+    .setColor("GREEN")
     .setDescription("You do not have permissions to use this command!");
 
 module.exports.run = async (bot, message, args, content) => {
